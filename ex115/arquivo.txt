@@ -1,0 +1,6 @@
+joao;22
+pedro;11
+julia;45
+fernando;6
+pedro;44
+maria;29

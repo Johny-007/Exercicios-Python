@@ -1,0 +1,5 @@
+nom = str(input("qual seu nome de acesso? "))
+print (f" certo, acesso permitido \n seja bem vindo a empresa falchi sr.{nom} \n o sr. tem uma notificacao, veja: \n \n . ..notificacao.. .\n um aumento de 15% lhe foi dado, verifique seu novo salario ")
+s = float(input("qual seu salario atual? "))
+s1 = s+(s*0.15)
+print (f"seu novo salario é de: {s1:.2f} RS ")

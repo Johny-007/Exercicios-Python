@@ -1,0 +1,5 @@
+print (" \n seja bem vindo ao mercadao elfico!\n voce acaba de ganhar um cupom de desconto de 5% \n")
+p = str(input(" em qual produto ira aplicar o cupom: "))
+v = float(input(" qual o valor atual desse produto: "))
+va = v-(v*0.05)
+print (f" o(a) \033[4;34;107m{p}\033[m custara \033[4;34;107m{va:.2f}\033[m RS com o cupom aplicado")
